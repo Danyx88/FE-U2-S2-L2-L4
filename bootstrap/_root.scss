@@ -38,19 +38,6 @@
   --#{$prefix}black-rgb: #{to-rgb($black)};
 
   // Fonts
-  $h7-font-size: $font-size-base * 1;
-  $h8-font-size: $font-size-base * 0.75;
-  $h9-font-size: $font-size-base * 0.5;
-  $h10-font-size: $font-size-base * 0.25;
-
-  $font-sizes: (
-    7: $h7-font-size,
-    8: $h8-font-size,
-    9: $h9-font-size,
-    10: $h10-font-size
-  );
-
-  $font-sizes: map-merge($font-sizes, $custom-font-sizes);
 
   // Note: Use `inspect` for lists so that quoted items keep the quotes.
   // See https://github.com/sass/sass/issues/2383#issuecomment-336349172
